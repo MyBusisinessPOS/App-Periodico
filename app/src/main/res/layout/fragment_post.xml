@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:src="@drawable/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+                </ImageView>
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="70dp"
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_white_1000"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/space_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_8"
+                android:layout_marginTop="@dimen/space_8"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h8_size"
+                    android:text="@string/where_public"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h6_size"
+                    android:text="@string/where_public1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <View
+                    android:id="@+id/view1526"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/colorBackgroundButton"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_vision_body" />
+
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h6_size"
+                    android:text="@string/where_public7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TableLayout
+                    android:id="@+id/simpleTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*"> <!-- stretch the second column of the layout-->
+
+                    <TableRow
+                        android:id="@+id/firstRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="1. Actas"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="1. Metodologías"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="2. Acuerdos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="2. Modificaciones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="3. Anexos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="3. Oficios"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="4. Avisos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="4. Organigramas"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="5. Bandos de Policia y Buen Gobierno"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="5. Padrones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="6. Calendarios"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="6. Participaciones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="7. Cartas"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="7. Planes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/firstRow7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="8. Catálogos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="8. Plazos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="9. Concesiones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="9. Presupuestos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="10. Constancias"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="10. Reglamentos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/firstRow10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="11. Controversias"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="11. Reglas de operación"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/firstRow11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="12. Convenios"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="12. Relaciones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="13. Decretos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="13. Reportes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/firstRow13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="14. Dictámenes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="14. Resoluciones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="15. Estatutos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="15. Sentencias"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:id="@+id/firstRow15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="16. Expedientes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="16. Síntesis"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:id="@+id/firstRow16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="17. Fe de erratas"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="17. Tesis"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:id="@+id/firstRow17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="18. Fondos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="18. Votos concurrentes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="19. Gacetas"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="19. Estados financieros"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="20. Informes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="20. Amparos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/firstRow20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="21. Leyes"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="21. Información de Concesiones"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="22. Lineamientos"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="22. Portal aplicativo de la Secretaría de Hacienda (Pash)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/firstRow22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="23. Manuales"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size"  />
+
+                        <TextView
+                            app:fontFamily="@font/roboto_medium"
+                            android:layout_width="35dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:text="23. Notificaciones de conocimiento de amparos contra el Periódico oficial"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_h8_size" />
+
+                    </TableRow>
+                </TableLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

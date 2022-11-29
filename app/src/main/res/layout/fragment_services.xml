@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:src="@drawable/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+                </ImageView>
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="70dp"
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_white_1000"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/space_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_8"
+                android:layout_marginTop="@dimen/space_8"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h8_size"
+                    android:text="@string/where_public"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h7_size"
+                    android:text="@string/where_public1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public3"                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/where_public5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="III. Edictos emanados de órganos jurisdiccionales"
+                    app:fontFamily="@font/roboto_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Para cualquier duda acerca de los requisitos a publicar podrá consultar los:"
+                    app:fontFamily="@font/roboto_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textSize="@dimen/font_h6_size"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:text="B. Para suscribirse"
+                    app:fontFamily="@font/roboto_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h6_size"
+                    android:text="C. Para adquirir ejemplares"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:layout_marginStart="32dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/public_details24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <View
+                    android:id="@+id/view1526"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/colorBackgroundButton"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_vision_body" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

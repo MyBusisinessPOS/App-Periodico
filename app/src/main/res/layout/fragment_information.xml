@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:src="@drawable/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+                </ImageView>
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="70dp"
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_white_1000"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/space_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_8"
+                android:layout_marginTop="@dimen/space_8"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h6_size"
+                    android:text="Periódico Oficial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Misión"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Garantizar las Publicaciones del Periódico Oficial del Gobierno del Estado de Oaxaca, tales como las leyes, decretos, reglamentos, acuerdos y demás actos de carácter oficial, dando mediante estrategias, certeza jurídica a la sociedad."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Visión"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+
+                    android:id="@+id/tv_vision_body"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Ser una Órgano de Difusión confiable con Calidad y Profesionalismo, en la edición, publicación y distribución de Publicaciones Oficiales en beneficio de la ciudadanía oaxaqueña y del mismo Gobierno."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <View
+                    android:id="@+id/view132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/colorBackgroundButton"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_vision_body" />
+
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/space_8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_h6_size"
+                    android:text="Talleres Gráficos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Misión"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Los Talleres Gráficos del Gobierno del Estado tienen la misión de determinar y aplicar las técnicas del proceso de artes gráficas para obtener impresos de calidad. Tiene como función principal la edición, publicación y administración del Periódico Oficial, que es el órgano de difusión y comunicación del Gobierno del Estado, cuyo propósito consiste en difundir y dar carácter legal a las leyes, decretos, reglamentos, circulares, órdenes, acuerdos y demás mandamientos que emitan los Poderes e Instituciones del Estado y Ayuntamientos de los diversos municipios, así como los particulares."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Visión"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+
+                    android:id="@+id/tv_vision2_body"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Ser una institución confiable y de excelencia que además de producir el Periódico Oficial del Gobierno del Estado en tiempo y forma, cuente con la infraestructura necesaria que le permita posicionarse como líder en el ramo de las artes gráficas, para proveer a las diversas dependencias que integran la administración pública estatal impresos de la más alta calidad, elaborados con las más avanzadas técnicas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="Funciones de la unidad de talleres gráficos"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details1"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details2"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details3"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details4"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details5"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details6"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details7"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details8"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/view152"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_body_s_size"
+                    android:text="@string/information_details9"
+                    android:layout_marginTop="@dimen/space_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+                <View
+                    android:id="@+id/view1526"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/colorBackgroundButton"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_vision_body" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

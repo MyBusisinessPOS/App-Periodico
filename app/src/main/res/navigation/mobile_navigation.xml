@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_edictos"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.edictos.EdictosFragment"
+        android:label="@string/menu_files"
+        tools:layout="@layout/fragment_edictos" />
+
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.information.informationFragment"
+        android:label="@string/menu_information"
+        tools:layout="@layout/fragment_information" />
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.services.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.post.PostFragment"
+        android:label="@string/menu_public"
+        tools:layout="@layout/fragment_post" />
+
+    <fragment
+        android:id="@+id/nav_contac"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.contac.ContacFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contac" />
+    <fragment
+        android:id="@+id/nav_price"
+        android:name="com.solucionestpvpos.periodicooficial.ui.ui.prices.PricesFragment"
+        android:label="@string/menu_price"
+        tools:layout="@layout/fragment_prices" />
+</navigation>

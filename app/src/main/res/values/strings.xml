@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Periodico oficial</string>
+
+
+    <!-- TODO: Remove or change this placeholder text DIALOG PERMISSIONS APP-->
+    <string name="all_files_permission">Permiso para todos los archivos</string>
+    <string name="restrictions_files_permission">Debido a las restricciones de Android 11, esta aplicación requiere permiso para todos los archivos</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Denegar</string>
+    <string name="function_without_the_permission">no puede funcionar sin el permiso</string>
+    <string name="please_allow_storage_permission">Permita el permiso de almacenamiento</string>
+
+
+    <!-- TODO: Remove or change this placeholder text LOGIN APP-->
+    <string name="login_hint_user">Usuario</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_label_botton_singup">Ingresar</string>
+
+
+    <!-- TODO: Remove or change this placeholder text REGISTER USER APP-->
+    <string name="title_register_subscription">Suscripción</string>
+    <string name="name_register_subscription">Nombre</string>
+    <string name="last_name_register_subscription">Apellidos</string>
+    <string name="email_register_subscription">johndoe@email.com</string>
+    <string name="phone_register_subscription">+525511223344</string>
+    <string name="name_business_register_subscription">Nombre de la empresa</string>
+    <string name="address_business_register_subscription">Dirección</string>
+    <string name="address2_business_register_subscription">Dirección 2</string>
+    <string name="state_business_register_subscription">Estado</string>
+    <string name="city_business_register_subscription">Ciudad</string>
+    <string name="cp_business_register_subscription">Código postal</string>
+
+    <!-- TODO: Remove or change this placeholder text NAVIGATION APP-->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text MENU APP-->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_files">ARCHIVOS EDICTOS</string>
+    <string name="menu_information">INFORMACIÓN INSTITUCIONAL</string>
+    <string name="menu_services">SERVICIOS</string>
+    <string name="menu_price">TABULADO DE PRECIOS</string>
+    <string name="menu_public">DÓNDE PUBLICAR</string>
+    <string name="menu_contact">CONTACTO</string>
+
+    <!-- TODO: Remove or change this placeholder text EDICTOS APP-->
+    <string name="home_edictos_title">SECCIÓN DE PERIODICOS 2022</string>
+    <string name="home_edictos_body">Puede ver y descargar todos los artículos que se publicaron recientemente.</string>
+
+    <!-- TODO: Remove or change this placeholder text SUSCRIPTION APP-->
+    <string name="home_suscriptions_title">SUSCRIPCIONES</string>
+    <string name="home_suscriptions_body">Si desea publicar su contenido puede hacer su pago desde esta sección, cualquier duda puede contactarnos con los distintos medios que le proporcionamos.</string>
+    <string name="home_suscriptions_title_button">Registrar</string>
+
+    <!-- TODO: Remove or change this placeholder text COSTO APP-->
+    <string name="home_cost_title">COSTOS DE DERECHOS DE PUBLICACIÓN </string>
+    <string name="home_cost_body">Encuentra información de los distintos costos para cada publicación.</string>
+
+    <string name="information_details">I. Determinar y aplicar las técnicas del proceso de artes gráficas para obtener con calidad periódicos, que requiera la Administración Pública Estatal; </string>
+    <string name="information_details1">II. Coordinarse permanentemente con la Director Jurídico de la Subsecretaría Jurídica y de Derechos Humanos de la Secretaría General, para acordar la forma y tiempos de publicación del Periódico Oficial del Gobierno del Estado y de las diversas disposiciones jurídicas; </string>
+    <string name="information_details2">III. Coordinar y controlar los trabajos de formación y edición del Periódico Oficial, mejorando su calidad, coadyuvando al logro de las metas y objetivos Institucionales; </string>
+    <string name="information_details3">IV. Llevar el registro que permita la publicación oportuna de la información oficial que tenga que hacerse en el Periódico Oficial</string>
+    <string name="information_details4">V. Revisar los originales mecánicos de los trabajos de impresión solicitados por las Dependencias autorizadas; </string>
+    <string name="information_details5">VI. Proporcionar el servicio de suscripción y entrega de los ejemplares del periódico oficial que le sean solicitados, ya sea por las diversas Dependencias y Entidades o por los particulares;</string>
+    <string name="information_details6">VII. Procurar que los ejemplares de los Periódicos Oficiales, se ajusten a los lineamientos de distribución y venta previamente establecidos, que le permitan abatir costos de producción de los mismos;</string>
+    <string name="information_details7">VIII. Suministrar mantenimiento preventivo y correctivo a la maquinaria y demás equipo e los Talleres Gráficos, para el cumplimiento de las tareas encomendadas;</string>
+    <string name="information_details8">IX. Controlar las entradas y salidas del material que se utiliza en la elaboración del Periódico, así como la existencia de los Periódicos en almacén; y </string>
+    <string name="information_details9">X. Las demás que le confiera el Secretario General, y el Director Jurídico de la Subsecretaría Jurídica y de Derechos Humanos, así como las que le señalen las disposiciones legales y reglamentarias relativas vigentes.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="public_details">a) Deberá contar con la autorización de la Unidad del Periódico Oficial de la Consejería Jurídica del Gobierno del Estado.</string>
+    <string name="public_details1">b) Se deberá presentar oficio de solicitud de publicación debidamente requisitado, fundado y motivado, ante la Unidad del Periódico Oficial de la Consejería Jurídica del Gobierno del Estado, anexando documento de manera impresa, en original y copia, así como el archivo digital del mismo y, en su caso, el comprobante original del pago de los derechos correspondientes. A efecto de lo anterior, el interesado deberá acudir en primera instancia a la Unidad de Talleres Gráficos, en donde se le expedirá la orden de pago y línea de captura, para que realice el pago a la brevedad posible. Por pandemia deberán enviar documento firmado y sellado al Correo unidadtalleresgraficos@gmail.com, Para que se coticé y envié la línea de captura (Tiempo de atención de 24 a 48 hrs.) Nota: adjuntar información de facturación (RFC, DOMICILIO FISCAL, CORREO PARA RECIBIR SU FACTURA, REGIMEN FISCAL Y USO DE SU CFDI) Conforme a las disposiciones fiscales del SAT, para emitir las Facturas electrónicas versión 4.0, el campo de Uso de CFDI, regimen Fiscal y código postal son obligatorios, y una mala selección no es motivo de cancelación.</string>
+    <string name="public_details2">c) Autorizada la publicación, la documentación será remitida a la Unidad de Talleres Gráficos con el oficio correspondiente.</string>
+
+    <string name="public_details3">a) Deberá presentarse en original, debidamente firmada y sellada por la persona física o moral, o notario que la emita.</string>
+    <string name="public_details4">b) Presentar oficio dirigido al jefe de la Unidad de Talleres Gráficos, solicitando la publicación.</string>
+    <string name="public_details5">c) Las personas morales, deberán presentar copia del documento que acredite que la persona que solicita la publicación está facultada para realizar dichos trámites, tales como el acta constitutiva, carta poder, o demás instrumento idóneo que acredite la personería, y</string>
+    <string name="public_details6">d) Cubrir los derechos de publicación correspondientes según lo establece la Ley Estatal de Derechos.</string>
+
+
+    <string name="public_details7">a) Solicitar la publicación en la Unidad de Talleres Gráficos.</string>
+    <string name="public_details8">b) Presentar la documentación en original, debidamente firmada y sellada por el órgano que lo emite, y</string>
+    <string name="public_details9">c) Cubrir los derechos de publicación correspondientes según lo establece la Ley Estatal de Derechos.</string>
+
+
+    <string name="public_details10">Todo documento tendiente a insertarse en las ediciones ordinarias y sus secciones, deberá presentarse con solicitud y comprobante de pago con dos días de anticipación a efecto de ser incluido en la edición semanal correspondiente, tomando en cuenta que los días de cierre de los periódicos ordinarios de cada sábado serán los días miércoles a las 1:00 p.m.</string>
+    <string name="public_details11">En caso de solicitar una publicación extraordinaria, los documentos serán entregados con dos días de anticipación a la fecha en que se pretenda publicar.</string>
+    <string name="public_details12">Todo documento tendiente a ser publicado en el periódico oficial, deberá estar impreso en tinta negra (no escala de grises), en hojas tamaño carta u oficio, de papel bond, con fuentes de tamaño mínimo de 12 puntos (0.42331 cm) y deberá presentarse debidamente ordenado y numerado al pie de página.</string>
+
+    <string name="public_details13">Lineamientos Generales Para El Proceso De Edición, Publicación Y Venta Del Periódico Oficial Del Gobierno Del Estado De Oaxaca.</string>
+    <string name="public_details14">Publicados en el Periódico Oficial del Gobierno del Estado el 28 de octubre de 2015.</string>
+
+    <string name="public_details15">Las suscripciones sólo cubren los periódicos ordinarios, las secciones y extras deberán adquirirse por separado</string>
+    <string name="public_details16">1. Solicitar la orden de pago para suscripción en las oficinas de Talleres Gráficos del Gobierno del Estado.</string>
+    <string name="public_details17">2. Realizar el pago de derechos en cualquiera de las oficinas recaudadoras del estado.</string>
+    <string name="public_details18">3. Presentar el original del comprobante de pago expedido por la oficina recaudadora, de no hacerlo su suscripción no procederá.</string>
+    <string name="public_details19">4. Recoger periódicamente sus ejemplares en las instalaciones de Talleres Gráficos del Gobierno del Estado.</string>
+    <string name="public_details20">5. En caso de que el suscriptor no radique en la ciudad de Oaxaca de Juárez y quiera que los periódicos se le envíen, se considerará como suscriptor foráneo y deberá presentar sus guías prepagadas para que se le envíen sus ejemplares mensualmente. Los costos se regirán por lo dispuesto en la Ley Estatal de Derechos.</string>
+
+
+    <string name="public_details21">1. Solicitar la orden de pago para suscripción en las oficinas de Talleres Gráficos del Gobierno del Estado.</string>
+    <string name="public_details22">2. Realizar el pago de derechos en cualquiera de las oficinas recaudadoras de la secretaría de Finanzas.</string>
+    <string name="public_details23">3. Presentar el original del comprobante de pago expedido por la oficina recaudadora, en caso de requerir el comprobante original para comprobación de gastos anexar fotocopia.</string>
+    <string name="public_details24">4. Recoger los ejemplares en las instalaciones de Talleres Gráficos del Gobierno del Estado.</string>
+
+    <string name="where_public">La recepción de documentos para publicar, es en relación al contenido:</string>
+    <string name="where_public1">Unidad de Talleres Gráicos del Gobierno del Estado recibe:</string>
+    <string name="where_public2">1. Reconocimientos de validez oficial</string>
+    <string name="where_public3">2. Avisos Notariales</string>
+    <string name="where_public4">3. Edictos emanados de Órganos jurisdiccionales</string>
+    <string name="where_public5">4. Documentos para cotizar y generar linea de captura</string>
+    <string name="where_public6">5. Notificaciones de conocimiento de amparos contra Unidad de Talleres Gráicos del Gobierno del Estad</string>
+
+    <string name="where_public7">Consejería Jurídica del Gobierno del Estado recibe:</string>
+
+
+    <string name="contac_details">Lic. Mario Jiménez Noriega</string>
+    <string name="contac_details1">Consejería Jurídica</string>
+    <string name="contac_details2">Jefe de la Unidad del Periódico Oficial del Gobierno del Estado de Oaxaca.</string>
+    <string name="contac_details3"></string>
+    <string name="contac_details4">mario.jimenez@oaxaca.gob.mx</string>
+    <string name="contac_details5">Ciudad administrativa</string>
+    <string name="contac_details6">Carretera Oaxaca-Istmo Km 11.5</string>
+    <string name="contac_details7">Tlalixtac de Cabrera, Oaxaca. C.P. 68270</string>
+    <string name="contac_details8">Conmutador (951) 50 1 50 00 ext. 11631</string>
+
+    <string name="price_details">*El tabulador lo establece la LEY ESTATAL DE DERECHOS DE OAXACA publicado en el Periódico Oficial del Estado el 20-12-17 art. 46</string>
+    <string name="price_details1">* La Unidad de Medida y Actualización (UMA) es la referencia económica en pesos para determinar la cuantía del pago de las obligaciones y supuestos previstos en las leyes federales, de las entidades federativas, así como en las disposiciones jurídicas que emanen de todas las anteriores.(Fuente https://www.inegi.org.mx/temas/uma/)</string>
+    <string name="price_details2">* Los precios se redondean despues de calcular la totalidad de los conceptos cobrado</string>
+
+</resources>
